@@ -5,8 +5,13 @@
   overflow-y: scroll;
   overflow-x: hidden;
 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-content: start;
-  gap: 1.6rem;
+  display: flex; /* Change to flex layout */
+  flex-direction: column; /* Arrange items in a column like cityList */
+  gap: 1.6rem; /* Maintain the same gap as before */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.countryList::-webkit-scrollbar {
+  width: 0; /* Hide scrollbar */
 }
