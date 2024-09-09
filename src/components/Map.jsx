@@ -1,4 +1,4 @@
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {
   MapContainer,
   Popup,
@@ -17,6 +17,7 @@ import { useEffect, useState } from "react";
 import { useCities } from "../contexts/CitiesContext";
 import { useGeolocation } from "../hooks/useGeolocation";
 import Button from "./Button";
+import { useUrlPosition } from "../hooks/useUrlPosition";
 
 // Fix for missing marker icons
 delete L.Icon.Default.prototype._getIconUrl;
@@ -35,6 +36,7 @@ function Map() {
     position: geolocationPosition,
     getPosition,
   } = useGeolocation();
+  const [mapLat, mapLng] = useUrlPosition();
 
   useEffect(
     function () {
