@@ -67,7 +67,8 @@ function Form() {
 
   async function handleSubmit(e) {
     e.preventDefault();
-
+    if (cityName === cityName)
+      return alert("This City Already Existed in list");
     if (!cityName || !date) return;
     const newCity = {
       cityName,
