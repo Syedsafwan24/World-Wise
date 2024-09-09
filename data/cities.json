@@ -1,51 +1,27 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
+      "id": "6f92",
+      "cityName": "Aguiar da Beira",
       "country": "Portugal",
       "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
+      "date": "2024-09-09T12:57:26.578Z",
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": "17806751"
+        "lat": "40.819079695789796",
+        "lng": "-7.547607421875001"
+      }
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "id": "c1af",
+      "cityName": "Castro Daire",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2024-09-09T13:00:53.097Z",
+      "notes": "",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": "98443197"
-    },
-    {
-      "id": "9ff0",
-      "cityName": "Dharwad",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2024-09-09T09:50:29.516Z",
-      "notes": "new",
-      "position": {
-        "lat": "15.390135715305217",
-        "lng": "74.86307586571404"
+        "lat": "40.98207988014644",
+        "lng": "-7.877197265625001"
       }
     }
   ]
