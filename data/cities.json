@@ -1,27 +1,27 @@
 {
   "cities": [
     {
-      "id": "6f92",
-      "cityName": "Aguiar da Beira",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2024-09-09T12:57:26.578Z",
+      "id": "123b",
+      "cityName": "Kanakono",
+      "country": "Cote d'Ivoire",
+      "emoji": "🇨🇮",
+      "date": "2024-09-09T20:36:55.947Z",
       "notes": "",
       "position": {
-        "lat": "40.819079695789796",
-        "lng": "-7.547607421875001"
+        "lat": "10.404450090311624",
+        "lng": "-6.306152343750001"
       }
     },
     {
-      "id": "c1af",
-      "cityName": "Castro Daire",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2024-09-09T13:00:53.097Z",
+      "id": "0af3",
+      "cityName": "Kenieba",
+      "country": "Mali",
+      "emoji": "🇲🇱",
+      "date": "2024-09-09T20:36:58.213Z",
       "notes": "",
       "position": {
-        "lat": "40.98207988014644",
-        "lng": "-7.877197265625001"
+        "lat": "12.836037564297644",
+        "lng": "-11.09619140625"
       }
     }
   ]
