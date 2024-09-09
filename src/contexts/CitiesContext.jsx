@@ -54,6 +54,8 @@ function reducer(state, action) {
         isLoading: false,
         error: action.payload,
       };
+    default:
+      throw new Error("Unknown action");
   }
 }
 
