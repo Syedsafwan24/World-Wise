@@ -49,7 +49,7 @@ function Form() {
           // console.log(data);
           if (!data.countryCode)
             throw new Error(
-              "That does'nt seem to be city.Click somewhere else"
+              "That doesn't seem to be city.Click somewhere else"
             );
           setCityName(data.city || data.locality || "");
           setCountry(data.countryName);
